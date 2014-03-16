@@ -1,0 +1,14 @@
+<div id="imagerow" class="row imagerow">
+    <div class="prev col-md-2 hidden-xs hidden-sm">
+        <a class="btn btn-default btn-lg" href="#" ng-disabled="prevDisabled" ng-click="prevPicture()"> <span class="glyphicon glyphicon-circle-arrow-left"></span>
+        </a>
+    </div>
+    <div class="col-xs-12 col-md-8 gallery-image">
+        <div ng-repeat="picture in pictures" ng-swipe-right="prevPicture()" ng-swipe-left="nextPicture()" ng-show="pictureActive($index)" ng-style="{ 'background-image': 'url({{picture.src}})' }"></div>
+    </div>
+    <div class="next col-md-2 hidden-xs hidden-sm">
+        <a class="btn btn-default btn-lg" href="#" ng-click="nextPicture()" ng-disabled="nextDisabled"> <span class="glyphicon glyphicon-circle-arrow-right"></span>
+        </a>
+    </div>
+    <div class="clearfix visible-md visible-lg" />
+</div>

@@ -1,0 +1,98 @@
+div.list table td {
+    padding: 2px;
+}
+
+ul.nav img {
+    max-width: 50px;
+    max-height: 50px;
+    display: inline;
+    padding-right: 5px;
+}
+
+span.menu {
+    padding-left: 25px;
+    float: left;
+}
+
+div.next,div.prev {
+    height: 100%;
+    vertical-align: center;
+}
+
+div.next a,div.prev a {
+    margin-top: 100%;
+    margin-bottom: 100%;
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 9px;
+}
+
+div.next a {
+    float: left;
+}
+
+div.prev a {
+    float: right;
+}
+
+.nav a {
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+ul.nav {
+    margin-left: 0px;
+    padding-left: 5px;
+    margin-right: 0px;
+    padding-right: 5px;
+}
+
+.index,.list,.gallery {
+    height: 100%;
+}
+
+.gallery {
+    display: table;
+    height: 100%;
+}
+
+.gallery .row {
+    display: table-row;
+}
+
+.imagerow {
+    max-height: 100%;
+    height: 100%;
+    bottom: 0px;
+}
+
+.list ul.nav {
+    position: relative;
+    z-index: 1000;
+    overflow: visible;
+}
+
+.gallery-image {
+    height: 90%;
+    margin-top: 3%;
+    position: relative;
+}
+
+.gallery-image>div {
+    height: 100%;
+    width: 100%;
+    display: block;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery row [class*="col-"] {
+    display: table-cell;
+}

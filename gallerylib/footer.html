@@ -1,0 +1,14 @@
+                        </li>
+                        <li ng-repeat="picture in pictures" ng-class="{'active':pictureActive($index)}"><a href="javascript:void(0);" alt="{{picture.desc}}" title="{{picture.desc}}" class="img-responsive" ng-click="showPicture($index);"
+                            ng-style="{ 'background-image': 'url({{picture.src}}?small)' }"
+                        ></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <gallery></gallery>
+    </div>
+</body>
+</html>

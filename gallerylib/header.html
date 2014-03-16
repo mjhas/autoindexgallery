@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="autoindexgallery">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="/gallerylib/header.css">
+<script src="//code.jquery.com/jquery-2.1.0.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular-animate.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular-touch.min.js"></script>
+<script src="/gallerylib/gallery.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</head>
+<body class="container-fluid">
+    <div ng-controller="galleryController" class="gallery row col-xs-12 ">
+        <nav id="nav" class="navbar navbar-default row navbar-left" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#indexing">
+                        <span class="menu">Menu</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="indexing">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="dropdown"><a id="list" href="#" class="dropdown-toggle" data-toggle="dropdown">Navigation<b class="caret"></b></a> 
+                        <!-- mod_autoindex is working here -->
