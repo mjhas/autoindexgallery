@@ -24,3 +24,7 @@ Apache Configuration:
     RewriteRule ^(.*)$ \/gallerylib/thumb.php%{REQUEST_URI}
 ```
 
+
+Example
+=============
+https://haslgruebler.eu/gallery/
